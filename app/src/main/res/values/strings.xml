@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">FamilyMapClient</string>
+
+    <string name="host">Server Host:</string>
+    <string name="defaultIPAddr">192.168.1.193</string>
+    <string name="loginTitle">Family Map</string>
+    <string name="defaultPort">8080</string>
+    <string name="username">Username:</string>
+    <string name="password">Password:</string>
+    <string name="first_name">First Name:</string>
+    <string name="last_name">Last Name:</string>
+    <string name="email">Email:</string>
+    <string name="gender">Gender:</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="click_on_a_marker_to_see_event_details">Click on a Marker to see Event Details</string>
+    <string name="settings">settings</string>
+    <string name="search">search</string>
+    <string name="please_enter_a_search_term">Please Enter a Search Term</string>
+    <string name="filter_events_based_on_gender">Filter Events Based on Gender</string>
+    <string name="return_to_the_login_screen">Return to the Login Screen</string>
+    <string name="logout">Logout</string>
+    <string name="female_events">Female Events</string>
+    <string name="male_events">Male Events</string>
+    <string name="mother_s_side">Mother\'s Side</string>
+    <string name="filter_by_mother_s_side_of_the_family">Filter By Mother\'s Side of the Family</string>
+    <string name="father_s_side">Father\'s Side</string>
+    <string name="filter_by_father_s_side_of_the_family">Filter By Father\'s Side of the Family</string>
+    <string name="spouse_lines">Spouse Lines</string>
+    <string name="show_spouse_lines">Show Spouse lines</string>
+    <string name="family_tree_lines">Family Tree Lines</string>
+    <string name="show_family_tree_lines">Show Family Tree lines</string>
+    <string name="life_story_lines">Life Story Lines</string>
+    <string name="show_life_story_lines">Show Life Story lines</string>
+    <string name="default_info_title">Click on a Marker to see Event Details</string>
+</resources>

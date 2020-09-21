@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+        <TextView
+            android:id="@+id/loginTitle"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="@string/loginTitle"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:gravity="center_horizontal" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="134dp"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="@string/host"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/host"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="192.168.1.163"
+            android:inputType="text"
+            android:text="@string/defaultIPAddr"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="134dp"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="Server Port:"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/port"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="192.168.1.163"
+            android:inputType="number"
+            android:text="@string/defaultPort"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="134dp"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="@string/username"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:inputType="text"
+            android:text="sheila"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="134dp"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="@string/password"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:inputType="textPassword"
+            android:text="parker"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="134dp"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="@string/first_name"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/firstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:inputType="text"
+            android:text=""
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="134dp"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="@string/last_name"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/lastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:inputType="text"
+            android:text=""
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="134dp"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="@string/email"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:inputType="textEmailAddress"
+            android:text=""
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="134dp"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="@string/gender"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <RadioGroup
+            android:id="@+id/genderChoices"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/male"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:checked="true"
+                android:text="@string/male" />
+            <RadioButton
+                android:id="@+id/female"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:text="@string/female" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="25dp">
+        <Button
+            android:id="@+id/login"
+            android:layout_width="1dp"
+            android:layout_height="50dp"
+            android:layout_weight="1.0"
+            android:text="@string/login"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/register"
+            android:layout_width="1dp"
+            android:layout_height="50dp"
+            android:layout_weight="1.0"
+            android:text="@string/register"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>
