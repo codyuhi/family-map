@@ -2,7 +2,7 @@
     <string name="app_name">FamilyMapClient</string>
 
     <string name="host">Server Host:</string>
-    <string name="defaultIPAddr">192.168.1.193</string>
+    <string name="defaultIPAddr">192.168.1.106</string>
     <string name="loginTitle">Family Map</string>
     <string name="defaultPort">8080</string>
     <string name="username">Username:</string>

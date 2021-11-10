@@ -14,7 +14,7 @@ import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
-import com.uhi22.familymapserver.Util.JsonUtil;
+import com.uhi22.shared.Util.JsonUtil;
 import com.uhi22.shared.Requests.LoadRequest;
 import com.uhi22.shared.Requests.RegisterRequest;
 import com.uhi22.shared.Responses.AllEventsResponse;
